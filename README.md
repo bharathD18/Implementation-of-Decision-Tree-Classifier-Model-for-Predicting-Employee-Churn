@@ -13,6 +13,7 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 3. Use GridSearchCV to optimize hyperparameters and train the best model.
 4. Evaluate accuracy, classification metrics, confusion matrix, ROC curve, and visualize the decision tree.
 ## Program:
+```python
 /*
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
 Developed by: Bharath D
@@ -126,7 +127,7 @@ plt.figure(figsize=(14,8))
 plot_tree(final_tree, feature_names=feature_names, class_names=["Stay","Churn"], filled=True, fontsize=8)
 plt.title("Decision Tree - Employee Churn")
 plt.show()
-
+```
 ## Output:
 <img width="906" height="233" alt="image" src="https://github.com/user-attachments/assets/cf8e92ee-075e-4a01-b945-520c12579159" />
 <img width="1036" height="94" alt="image" src="https://github.com/user-attachments/assets/73702ffd-cb8e-4e79-b3f8-30e05c486431" />
